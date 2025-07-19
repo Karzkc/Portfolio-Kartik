@@ -13,18 +13,18 @@ export default function page() {
     <>
       
       
-      <div className="main  w-full fl flex-col !justify-start p-6 ">
+      <div className="main  w-full fl flex-col !justify-start  ">
         
-        <div id="home" className="  w-full mt-20   my-20">
+        <div id="home" className="  w-full mt-20   my-20 p-6 ">
           <Home />
         </div>
         <div id="project" className="  w-full fl !justify-start my-20 ">
           <Projects />
         </div>
-        <div id="about" className="  w-full fl   my-20">
+        <div id="about" className="  w-full fl   my-20 p-6 ">
           <About />
         </div>
-        <div id="contact" className="  w-full fl  my-20">
+        <div id="contact" className="  w-full fl  my-20 p-6 ">
           <Contact />
         </div>
 

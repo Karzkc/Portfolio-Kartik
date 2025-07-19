@@ -10,44 +10,46 @@ import {
 } from "@/components/ui/carousel";
 
 const projects = [
-    {
-        title: "X Clone",
-        description: "X UI Clone built with Next.js.",
-        image: "/X.png",
-        url: "https://x-clone-five-gules.vercel.app/",
-    },
-    {
-        title: "Password Manager",
-        description: "Manage passwords securely and efficiently.",
-        image: "/PW.png",
-        url: "https://github.com/Karzkc/Bro-Code---Your-Password-Manager",
-    },
-    {
-        title: "Short-it: An Url Shortner",
-        description: "Shorten URLs quickly and easily.",
-        image: "/Url.png",
-        url: "https://github.com/Karzkc/web-dev/tree/master/javascript/136%20URL%20Shortner/url-shortner",
-    },
-    {
-        title: "Spotify Clone",
-        description: "Spotify UI Clone",
-        image: "/spotify.png",
-        url: "https://karzkc.github.io/Spotify-Clone/",
-    },
-    {
-        title: "Netflix Clone",
-        description: "Netflix UI Clone using HTML CSS JS.",
-        image: "/Netflix.png",
-        url: "https://karzkc.github.io/Netflix-Ui-Clone/",
-    },
+  {
+    title: "X Clone",
+    description: "X UI Clone built with Next.js.",
+    image: "/X.png",
+    url: "https://x-clone-five-gules.vercel.app/",
+  },
+  {
+    title: "Password Manager",
+    description: "Manage passwords securely and efficiently.",
+    image: "/PW.png",
+    url: "https://github.com/Karzkc/Bro-Code---Your-Password-Manager",
+  },
+  {
+    title: "Short-it: An Url Shortner",
+    description: "Shorten URLs quickly and easily.",
+    image: "/Url.png",
+    url: "https://github.com/Karzkc/web-dev/tree/master/javascript/136%20URL%20Shortner/url-shortner",
+  },
+  {
+    title: "Spotify Clone",
+    description: "Spotify UI Clone",
+    image: "/spotify.png",
+    url: "https://karzkc.github.io/Spotify-Clone/",
+  },
+  {
+    title: "Netflix Clone",
+    description: "Netflix UI Clone using HTML CSS JS.",
+    image: "/Netflix.png",
+    url: "https://karzkc.github.io/Netflix-Ui-Clone/",
+  },
 ];
 
 export function Presentation() {
   return (
     <div
       id="projects"
-      className="relative z-0 w-full max-w-7xl  mt-24 px-4 "
+      className="relative z-0 w-full max-w-7xl  sm:mt-24 mt-18 pr-4 fl flex-col "
     >
+      <span className='mobile text-sm mb-10'>← swipe →</span>
+
       <Carousel
         opts={{
           align: "start",
@@ -93,8 +95,8 @@ export function Presentation() {
         </CarouselContent>
 
         {/* Navigation Buttons */}
-        <CarouselPrevious className="right-10 cursor-pointer" />
-        <CarouselNext className="right-[-40px] cursor-pointer" />
+        <CarouselPrevious className="right-10 cursor-pointer swipe-button" />
+        <CarouselNext className="right-[-40px] cursor-pointer swipe-button" />
       </Carousel>
     </div>
   );
