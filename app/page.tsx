@@ -3,8 +3,8 @@ import Home from "@/components/Home";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
-import { useEffect, useState } from "react";
-import { Presentation } from "@/components/Presentation";
+// import { useEffect, useState } from "react"
+// import { Presentation } from "@/components/Presentation";
 
 
 export default function page() {

@@ -43,15 +43,15 @@ const Home = () => {
     <div className='home flex flex-col items-start justify-start p-4 md:p-8'>
 
       <div className="intro text-4xl md:text-5xl font-bold mb-4">
-        Hi, I'm Kartik!
+        Hi, I am Kartik!
       </div>
 
       <div className="text-me text-lg md:text-xl max-w-2xl leading-relaxed mt-6 md:mt-10">
         <p className="mb-4">
-          A <b>Programming Enthusiast</b> passionate about web development since school, I'm on track to be a <b>Full-Stack developer</b>.
+          A <b>Programming Enthusiast</b> passionate about web development since school, I am on track to be a <b>Full-Stack developer</b>.
         </p>
         <p>
-          My current focus is on <b>Next.js</b>. Though new to the professional scene, I'm highly motivated and ready to contribute to innovative web solutions.
+          My current focus is on <b>Next.js</b>. Though new to the professional scene, I am highly motivated and ready to contribute to innovative web solutions.
         </p>
       </div>
 

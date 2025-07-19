@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -18,39 +19,47 @@ const Contact = () => {
         <h2 className="text-4xl font-bold mb-8 text-white dark:text-gray-200">Get in Touch</h2>
 
         <p className="text-lg leading-relaxed mb-12 text-white dark:text-gray-200">
-          Feel free to connect with me across various platforms. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+          Feel free to connect with me across various platforms. I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6">
           <Link href="https://www.instagram.com/kartikk_0803/" target="_blank" rel="noopener noreferrer">
-            <img
+            <Image
               className="cursor-pointer transform transition-transform duration-200 hover:scale-105"
               src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white"
               alt="Instagram"
+              height={20}
+              width={85}
             />
           </Link>
 
           <Link href="https://www.linkedin.com/in/kartik-khiriya-483a81319/" target="_blank" rel="noopener noreferrer">
-            <img
+            <Image
               className="cursor-pointer transform transition-transform duration-200 hover:scale-105"
               src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"
               alt="LinkedIn"
+              height={20}
+              width={57}
             />
           </Link>
 
           <Link href="https://reddit.com/user/Karzkc08" target="_blank" rel="noopener noreferrer">
-            <img
+            <Image
               className="cursor-pointer transform transition-transform duration-200 hover:scale-105"
               src="https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white"
               alt="Reddit"
+              height={20}
+              width={63}
             />
           </Link>
 
           <Link href="https://x.com/@karzkc0803" target="_blank" rel="noopener noreferrer">
-            <img
+            <Image
               className="cursor-pointer transform transition-transform duration-200 hover:scale-105"
               src="https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white"
               alt="X (formerly Twitter)"
+              height={20}
+              width={35}
             />
           </Link>
         </div>
