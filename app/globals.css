@@ -1,7 +1,46 @@
 @import "tailwindcss";
-@import url(../style/fonts.css);
 @import "tw-animate-css";
-@import url(../style/media-query.css);
+
+.font-inter {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.font-manrope {
+  font-family: var(--font-manrope), sans-serif;
+}
+
+.font-space-grotesk {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+.font-jetbrains-mono {
+  font-family: var(--font-jetbrains-mono), monospace;
+}
+
+
+@media (max-width:750px) {
+  .navbar {
+    font-size: 9px;
+  }
+
+  .swipe-button {
+    display: none;
+  }
+
+}
+
+@media (min-width:750px) {
+  .mobile {
+    display: none;
+
+  }
+
+
+}
 
 /* @custom-variant dark (&:is(.dark *)); */
 @theme inline {
@@ -41,6 +80,7 @@
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
 }
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -75,6 +115,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 }
+
 .dark {
   --background: oklch(0.145 0 0);
   --foreground: oklch(0.985 0 0);
@@ -108,10 +149,12 @@
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
 }
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -137,13 +180,12 @@ body {
   backdrop-filter: blur(10px);
 }
 
-.item:hover{
+.item:hover {
   transform: scale(1.1);
   transition: 100ms ease-in-out;
 }
-.skill-category li:hover{
+
+.skill-category li:hover {
   transform: scale(1.05);
   transition: ease-in-out 100ms;
 }
-
-
