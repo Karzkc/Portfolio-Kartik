@@ -4,37 +4,32 @@ import Image from 'next/image';
 const Home = () => {
   const badgeHeight = 22;
   const badgeWidths: Record<string, number> = {
-    // Frontend
     html: 70,
     css: 40,
-    js: 95,      // Adjusted slightly for 'javascript' text
-    ts: 90,      // Adjusted slightly for 'typescript' text
+    js: 95,      
+    ts: 90,      
     react: 65,
-    reactQuery: 100, // Adjusted for 'React Query' text
-    reactRouter: 105, // Adjusted for 'React Router' text
+    reactQuery: 100, 
+    reactRouter: 105, 
     redux: 60,
     next: 60,
     vite: 50,
 
-    // Backend
-    node: 75,       // Adjusted for 'node.js' text
-    express: 90,   // Adjusted for 'express.js' text
-    mongoose: 100,  // Adjusted for 'Mongoose' text
+    node: 75,       
+    express: 90,  
+    mongoose: 100, 
     ejs: 50,
     python: 75,
     flask: 60,
     php: 50,
 
-    // Databases
-    mongodb: 95,    // Adjusted for 'MongoDB' text
+    mongodb: 95,   
     mysql: 70,
 
-    // Tools & VCS
     git: 50,
     github: 70,
     postman: 80,
 
-    // Other Languages
     c: 40,
     cpp: 60,
   };
@@ -352,9 +347,9 @@ const Home = () => {
               </li>
             </ul>
           </div>
-        </div> {/* CLOSES grid div */}
-      </div> {/* CLOSES skills div */}
-    </div> // CLOSES home div
+        </div> 
+      </div> 
+    </div> 
   );
 };
 

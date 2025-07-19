@@ -94,7 +94,7 @@ export function Presentation() {
           ))}
         </CarouselContent>
 
-        {/* Navigation Buttons */}
+        
         <CarouselPrevious className="right-10 cursor-pointer swipe-button" />
         <CarouselNext className="right-[-40px] cursor-pointer swipe-button" />
       </Carousel>
