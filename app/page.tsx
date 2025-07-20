@@ -4,8 +4,7 @@ import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
 import ViewCounter from "@/components/ViewCounter"; // ✅ import it here
-import Image from "next/image";
-import Link from "next/link";
+
 
 export default function page() {
   return (
