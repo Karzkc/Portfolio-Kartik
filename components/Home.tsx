@@ -46,7 +46,7 @@ const Home = () => {
           A <b>Programming Enthusiast</b> passionate about web development since school, I am on track to be a <b>Full-Stack developer</b>.
         </p>
         <p>
-          My current focus is on <b>Next.js</b>. Though new to the professional scene, I am highly motivated and ready to contribute to innovative web solutions.
+          My current focus is on <b>Backend</b> with <b>Next.js</b> and <b>DSA in C++</b>. Though new to the professional scene, I am highly motivated and ready to contribute to innovative web solutions.
         </p>
       </div>
 
