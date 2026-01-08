@@ -14,13 +14,13 @@ const projects = [
     title: "X Clone",
     description: "X UI Clone built with Next.js.",
     image: "/X.png",
-    url: "https://what-to-watch-next-by-kartik.vercel.app/",
+    url: "https://x-clone-five-gules.vercel.app/",
   },
   {
     title: "What to Watch Next",
     description: "A Webpage that suggest you good movies and shows",
     image: "/movie-site.png",
-    url: "https://x-clone-five-gules.vercel.app/",
+    url: "https://what-to-watch-next-by-kartik.vercel.app/",
   },
   {
     title: "Password Manager",
