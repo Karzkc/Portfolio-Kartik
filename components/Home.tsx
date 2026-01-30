@@ -6,24 +6,24 @@ const Home = () => {
   const badgeWidths: Record<string, number> = {
     html: 70,
     css: 40,
-    js: 95,      
-    ts: 90,      
+    js: 95,
+    ts: 90,
     react: 65,
-    reactQuery: 100, 
-    reactRouter: 105, 
+    reactQuery: 100,
+    reactRouter: 105,
     redux: 60,
     next: 60,
     vite: 50,
 
-    node: 75,       
-    express: 90,  
-    mongoose: 100, 
+    node: 75,
+    express: 90,
+    mongoose: 100,
     ejs: 50,
     python: 75,
     flask: 60,
     php: 50,
 
-    mongodb: 95,   
+    mongodb: 95,
     mysql: 70,
 
     git: 50,
@@ -43,11 +43,12 @@ const Home = () => {
 
       <div className="text-me text-lg md:text-xl max-w-2xl leading-relaxed mt-6 md:mt-10">
         <p className="mb-4">
-          A <b>Programming Enthusiast</b> passionate about web development since school, I am on track to be a <b>Full-Stack developer</b>.
+          Full-stack web developer working mainly with <b>React</b> and <b>Next.js</b>.
         </p>
         <p>
-          My current focus is on <b>Backend</b> with <b>Next.js</b> and <b>DSA in C++</b>. Though new to the professional scene, I am highly motivated and ready to contribute to innovative web solutions.
+          Currently deepening <b>backend skills</b> and <b>problem solving</b>. Learning by building and improving real projects.
         </p>
+
       </div>
 
       <div className="skills mt-12 md:mt-20 w-full">
@@ -57,7 +58,7 @@ const Home = () => {
           <div className="skill-category">
             <h3 className="text-xl font-medium mb-2">Frontend</h3>
             <ul className="flex flex-wrap gap-2">
-              
+
               <li>
                 <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -91,7 +92,7 @@ const Home = () => {
                   />
                 </Link>
               </li>
-              
+
               <li>
                 <Link href="https://redux.js.org" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -305,9 +306,9 @@ const Home = () => {
               </li>
             </ul>
           </div>
-        </div> 
-      </div> 
-    </div> 
+        </div>
+      </div>
+    </div>
   );
 };
 
