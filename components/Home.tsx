@@ -57,28 +57,7 @@ const Home = () => {
           <div className="skill-category">
             <h3 className="text-xl font-medium mb-2">Frontend</h3>
             <ul className="flex flex-wrap gap-2">
-              <li>
-                <Link href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    className="cursor-pointer"
-                    src="https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white"
-                    alt="HTML5"
-                    width={badgeWidths.html}
-                    height={badgeHeight}
-                  />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    className="cursor-pointer"
-                    src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white"
-                    alt="CSS3"
-                    width={badgeWidths.css}
-                    height={badgeHeight}
-                  />
-                </Link>
-              </li>
+              
               <li>
                 <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -112,28 +91,7 @@ const Home = () => {
                   />
                 </Link>
               </li>
-              <li>
-                <Link href="https://tanstack.com" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    className="cursor-pointer"
-                    src="https://img.shields.io/badge/-React%20Query-FF4154?style=flat&logo=react%20query&logoColor=white"
-                    alt="React Query"
-                    width={badgeWidths.reactQuery}
-                    height={badgeHeight}
-                  />
-                </Link>
-              </li>
-              <li>
-                <Link href="https://reactrouter.com" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    className="cursor-pointer"
-                    src="https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white"
-                    alt="React Router"
-                    width={badgeWidths.reactRouter}
-                    height={badgeHeight}
-                  />
-                </Link>
-              </li>
+              
               <li>
                 <Link href="https://redux.js.org" target="_blank" rel="noopener noreferrer">
                   <Image
