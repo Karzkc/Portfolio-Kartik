@@ -9,7 +9,7 @@ import ViewCounter from "@/components/ViewCounter";
 export default function page() {
   return (
     <div className="main w-full fl flex-col !justify-start">
-      <div id="home" className="w-full mt-20 my-20 p-6">
+      <div id="home" className="w-full mt-20 my-14 p-6">
         <Home />
       </div>
 

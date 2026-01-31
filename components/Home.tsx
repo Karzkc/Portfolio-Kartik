@@ -35,29 +35,29 @@ const Home = () => {
   };
 
   return (
-    <div className='home flex flex-col items-start justify-start p-4 md:p-8'>
+    <div className='home flex flex-col items-center justify-start p-4 md:p-8'>
 
-      <div className="intro text-4xl md:text-5xl font-bold mb-4">
+      <div className="intro text-4xl md:text-5xl font-bold mb-3  text-center">
         Hi, I am Kartik!
       </div>
 
-      <div className="text-me text-lg md:text-xl max-w-2xl leading-relaxed mt-6 md:mt-10">
-        <p className="mb-4">
-          Full-stack web developer working mainly with <b>React</b> and <b>Next.js</b>.
+      <div className="text-me text-lg md:text-xl max-w-2xl leading-relaxed mt-6 md:mt-10  flex flex-col justify-center items-center">
+        <p className="mb-4 flex text-center  ">
+          Full-stack web developer working mainly with React and Next.js .
         </p>
-        <p>
+        <p className="text-center">
           Currently deepening <b>backend skills</b> and <b>problem solving</b>. Learning by building and improving real projects.
         </p>
 
       </div>
 
-      <div className="skills mt-12 md:mt-20 w-full">
-        <h2 className="text-3xl font-semibold mb-6">My Skills:</h2>
+      <div className="skills mt-12 md:mt-20 w-full  flex flex-col items-center p-6 md:p-10 ">
+        <h2 className="text-3xl font-semibold mb-14">My Skills</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-          <div className="skill-category">
-            <h3 className="text-xl font-medium mb-2">Frontend</h3>
-            <ul className="flex flex-wrap gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 gap-10 ">
+          <div className="skill-category ">
+            <h3 className="text-xl font-medium mb-2 fl">Frontend</h3>
+            <ul className="flex flex-wrap gap-2 fl">
 
               <li>
                 <Link href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
@@ -130,8 +130,8 @@ const Home = () => {
           </div>
 
           <div className="skill-category">
-            <h3 className="text-xl font-medium mb-2">Backend</h3>
-            <ul className="flex flex-wrap gap-2">
+            <h3 className="text-xl font-medium mb-2 fl">Backend</h3>
+            <ul className="flex flex-wrap gap-2 fl">
               <li>
                 <Link href="https://nodejs.org" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -213,8 +213,8 @@ const Home = () => {
           </div>
 
           <div className="skill-category">
-            <h3 className="text-xl font-medium mb-2">Databases</h3>
-            <ul className="flex flex-wrap gap-2">
+            <h3 className="text-xl font-medium mb-2 fl">Databases</h3>
+            <ul className="flex flex-wrap gap-2 fl">
               <li>
                 <Link href="https://www.mongodb.com" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -241,8 +241,8 @@ const Home = () => {
           </div>
 
           <div className="skill-category">
-            <h3 className="text-xl font-medium mb-2">Tools & VCS</h3>
-            <ul className="flex flex-wrap gap-2">
+            <h3 className="text-xl font-medium mb-2 fl">Tools & VCS</h3>
+            <ul className="flex flex-wrap gap-2 fl">
               <li>
                 <Link href="https://git-scm.com" target="_blank" rel="noopener noreferrer">
                   <Image
@@ -280,8 +280,8 @@ const Home = () => {
           </div>
 
           <div className="skill-category">
-            <h3 className="text-xl font-medium mb-2">Other Languages</h3>
-            <ul className="flex flex-wrap gap-2">
+            <h3 className="text-xl font-medium mb-2 fl">Other Languages</h3>
+            <ul className="flex flex-wrap gap-2 fl">
               <li>
                 <Link href="https://devdocs.io/c/" target="_blank" rel="noopener noreferrer">
                   <Image
