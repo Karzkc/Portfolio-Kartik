@@ -35,7 +35,7 @@ const Home = () => {
   };
 
   return (
-    <div className='home flex flex-col items-center justify-start p-4 md:p-8'>
+    <div className='home flex flex-col items-center justify-start p-4 md:p-8 mt-8'>
 
       <div className="intro text-4xl md:text-5xl font-bold mb-3  text-center">
         Hi, I am Kartik!
@@ -51,7 +51,7 @@ const Home = () => {
 
       </div>
 
-      <div className="skills mt-12 md:mt-20 w-full  flex flex-col items-center p-6 md:p-10 ">
+      <div className="skills mt-35 md:mt-25 w-full  flex flex-col items-center p-6 md:p-10 ">
         <h2 className="text-3xl font-semibold mb-14">My Skills</h2>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 lg:gap-4 gap-10 ">
