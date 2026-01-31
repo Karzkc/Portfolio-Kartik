@@ -48,7 +48,9 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${poppins.variable} ${manrope.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} font-space-grotesk antialiased`}
       >
+        <div className="hidden md:inline">
         <MouseGradient/>
+        </div>
         <Navbar />
         {children}
       </body>
