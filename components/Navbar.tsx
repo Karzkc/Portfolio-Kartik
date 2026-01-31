@@ -6,8 +6,7 @@ const Navbar = () => {
     <div className='navbar h-18 flex items-center justify-around fixed w-full z-10 '>
       <div className='item font-jetbrains-mono mx-2'>
         <Link href={"/"} className='bg-gradient-to-r from-pink-500 via-purple-500 to-yellow-500 bg-[length:300%_300%] bg-clip-text text-transparent hover:animate-wave transition-all duration-500'>
-        
-        Portfolio
+          Kartik Khiriya
         </Link>
       </div>
       <div className=' center-links flex items-center justify-around md:gap-10 gap-3 mx-2'>
